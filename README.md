@@ -14,7 +14,7 @@ To start with, you need to have a github account. If you don't have one, go to [
 
 Suggestion: use a reasonable username that resembles your actual name.  
 
-Once you have your github, as first thing fork this repository, i.e. go [there](https://github.com/PhysicsOfData/LaboratoryOfComputationalPhysics) and click on the top-right button *fork*
+Once you have your github, as first thing fork this repository, i.e. go [there](https://github.com/PhysicsOfData/LaboratoryOfComputationalPhysics_Y3) and click on the top-right button *fork*
 
 ### Setting up a local repository
 
@@ -22,11 +22,11 @@ What follows needs to be done any time a new local repository is created.
 In particular, if you are working in a location where such repo already exist, what follows doesn't need to be repeated.
   * Clone your (forked) repository (i.e. create a local repository cloned from the remote one)
 
-`git clone https://github.com/YOUR_GIT_ACCOUNT/LaboratoryOfComputationalPhysics.git`
+`git clone https://github.com/YOUR_GIT_ACCOUNT/LaboratoryOfComputationalPhysics_Y3.git`
 
  where YOUR_GIT_ACCOUNT it your account on github. Now you can get to your local working folder:
 
- `cd LaboratoryOfComputationalPhysics/`
+ `cd LaboratoryOfComputationalPhysics_Y3/`
 
    * Configure your username and email:
 
@@ -38,9 +38,9 @@ In particular, if you are working in a location where such repo already exist, w
 
 * Define PhysicsOfData's repo as the upstream repository (you may need to set the url too), check that actually succeeded and get (fetch) the updates that have been done on the remote repository:
 
-`git remote add upstream https://github.com/PhysicsOfData/LaboratoryOfComputationalPhysics.git`
+`git remote add upstream https://github.com/PhysicsOfData/LaboratoryOfComputationalPhysics_Y3.git`
 
-`git remote set-url origin https://YOUR_GIT_ACCOUNT@github.com/YOUR_GIT_ACCOUNT/LaboratoryOfComputationalPhysics.git`
+`git remote set-url origin https://YOUR_GIT_ACCOUNT@github.com/YOUR_GIT_ACCOUNT/LaboratoryOfComputationalPhysics_Y3.git`
 
 `git remote -v`
 
